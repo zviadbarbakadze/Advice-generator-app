@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+.header{
+    color:hsl(150, 100%, 66%);
+    font-size: 20px;
+    
+}
+.text{
+    width: 400px;
+    height: 20px;
+    color:hsl(193, 38%, 86%);
+    margin-bottom: 50px;
+    font-size: 22px;
+    padding: 10px;
+   
+}
+.main{
+    background-color:hsl(217, 19%, 38%) ;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    border-radius: 10px;
+
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   height: 180px;
+    
+    
+}
+.wtf{
+    display: flex;
+    justify-content:space-between;
+}
+hr{
+    width: 100px;
+}
+.divider{
+background-size: contain;
+margin-bottom: 40px;
+}
+.dice{
+   position: absolute;
+   top: 25%;
+   left: 27%;
+   cursor: pointer;
+   
+}
+
+.center{
+        background: hsl(150, 100%, 66%);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+        
+ }
+ .center:hover{
+    background-color: chartreuse;
+ }
+ .center1{
+    position: absolute;
+    bottom: -10%;
+ }
+ @media(max-width:405px){
+    .main{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+        max-width: 90%;
+    }
+    .text{
+        max-width: 300px;
+    }
+ }
+ .satauri{
+    margin-left: 10px;
+ }
+
